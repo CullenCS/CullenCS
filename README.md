@@ -1,6 +1,6 @@
 # Cullen McFlynn
 
-I'm a detection engineer. Most of what I build are detection rules — mapped
+I'm a detection engineer. Most of what I build are detection rules: mapped
 to MITRE ATT&CK, mapped against real attack telemetry, written up well
 enough that I could hand them straight to a SOC and not have to explain
 myself.
@@ -12,7 +12,7 @@ Too many rules out there are just a regex that happens to look right.
 
 ### Featured
 
-**[detections](https://github.com/CullenCS/detections)** — Windows (Sigma)
+**[detections](https://github.com/CullenCS/detections)**. Windows (Sigma)
 and cloud (KQL) rules, each with a full writeup: the threat research behind
 it, the detection logic, validation runs against
 [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) and
@@ -25,7 +25,7 @@ Sigma validator on every push, so nothing broken lands on main.
 ### Right now
 
 Working through more cloud coverage (Entra ID, AWS) and trying to hold it
-to the same bar as the Windows rules — same validation, same writeups, no
+to the same bar as the Windows rules: same validation, same writeups, no
 shortcuts. Also tinkering with a small detection-as-code pipeline around
 CI checks and rule testing.
 
@@ -37,4 +37,4 @@ Explorer, AWS CloudTrail
 ---
 
 Happy to talk shop on detection engineering, threat hunting, or SOC
-tooling — culmcflynn@gmail.com
+tooling. Email: culmcflynn@gmail.com
